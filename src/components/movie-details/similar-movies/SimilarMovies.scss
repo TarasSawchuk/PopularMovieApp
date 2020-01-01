@@ -1,0 +1,12 @@
+.similar-movies-container{
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 90%;
+  .similar-movie{
+    width: 150px;
+    margin-left: 30px;
+    text-align: center;
+  }
+}

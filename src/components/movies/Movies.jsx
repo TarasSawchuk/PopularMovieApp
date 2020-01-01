@@ -14,6 +14,7 @@ const Movies = props => (
                         <Link className="details-link" to={{
                             pathname: `/movie/${movie.id}`,
                             state:{
+                                id: movie.id,
                                 title: movie.title,
                                 popularity: movie.popularity,
                                 overview: movie.overview,

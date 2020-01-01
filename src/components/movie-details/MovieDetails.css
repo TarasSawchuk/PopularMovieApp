@@ -3,7 +3,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
   background-color: #CDB380;
 }
 .movie-details .movie-details__content {
@@ -17,6 +16,10 @@
   flex-direction: column;
   align-items: flex-end;
   text-align: right;
+}
+.movie-details .movie-details__content .describe-box p {
+  font-size: 24px;
+  line-height: 40px;
 }
 .movie-details .movie-details__content .describe-box h1, .movie-details .movie-details__content .describe-box p span {
   color: #0a122a;
