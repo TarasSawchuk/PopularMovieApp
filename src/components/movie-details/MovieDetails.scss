@@ -1,0 +1,23 @@
+.movie-details{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #CDB380;
+  .movie-details__content{
+    max-width: 1000px;
+    display: flex;
+    align-items: center;
+    color: whitesmoke;
+    .describe-box{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-end;
+      text-align: right;
+      h1, p span{
+        color: #0a122a;
+      }
+    }
+  }
+}

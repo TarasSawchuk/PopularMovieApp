@@ -1,0 +1,20 @@
+.App{
+  display: flex;
+  flex-direction: column;
+  background-color: #CDB380;
+  .App-header{
+    display: flex;
+    align-items: flex-start;
+    background-color: #0a122a;
+    height: 80px;
+    h3{
+      color: whitesmoke;
+      opacity: .2;
+    }
+  }
+  .movies-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,25 @@
+.movie-details {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-color: #CDB380;
+}
+.movie-details .movie-details__content {
+  max-width: 1000px;
+  display: flex;
+  align-items: center;
+  color: whitesmoke;
+}
+.movie-details .movie-details__content .describe-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+}
+.movie-details .movie-details__content .describe-box h1, .movie-details .movie-details__content .describe-box p span {
+  color: #0a122a;
+}
+
+/*# sourceMappingURL=MovieDetails.css.map */

@@ -1,0 +1,33 @@
+.movie {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 270px;
+  background-color: #036564;
+  border-radius: 20px;
+}
+.movie p {
+  color: whitesmoke;
+  font-weight: bold;
+  text-align: center;
+}
+.movie:hover {
+  transition: transform 0.3s;
+  transform: scale(1.1);
+  box-shadow: 10px 5px 5px black;
+}
+.movie .details-link {
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  color: whitesmoke;
+  text-decoration: none;
+  text-align: center;
+}
+.movie .details-link:hover {
+  color: orange;
+}
+
+/*# sourceMappingURL=Movies.css.map */
